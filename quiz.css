@@ -22,8 +22,7 @@
     20% { opacity: 100; } 
     80% { opacity: 100; }
     100%{ opacity: 0;}
-        }
-
+}
 		
 /* PAGE STYLING ////////////////*/
 .wrapper{
@@ -35,14 +34,11 @@
 	height: 1000px;
 	margin-top: -200px;
 	overflow: hidden;
-	
 	background: #50a3a2;
 	background: -webkit-linear-gradient(top left, #50a3a2 0%, #51E3A5 100%);
 	background: -moz-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
 	background: -o-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
 	background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
-	
-	
 }
 			
 #quiz {
@@ -63,6 +59,7 @@
 form{
 	width: 100%;
 }
+
 fieldset{
 	width:  90%;
 	margin: 0 auto;
@@ -83,6 +80,7 @@ fieldset{
 	display: flex;
 	justify-content: center;
 }
+
 button{
 	appearance: none;
 	/* outline: 0; */
