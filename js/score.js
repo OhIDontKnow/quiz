@@ -58,7 +58,7 @@ function populateHiScore (){
     //Names
     var nameElement = document.getElementById('high-score-names');
     nameElement.innerHTML = '';
-    for (var i = 0; i < 10; i++){
+    for (var i = 0; i < allScores.length; i++){
         var element = document.createElement('li');
         element.innerText = '   ' + allScores[i].name;
         nameElement.appendChild(element);
